@@ -102,17 +102,17 @@ color: #ffffff;
     <p>Created by Amanda Zheng</p>
   </body>
   <video id="scroll-video" autoplay muted loop>
-    <source src="/Users/amandazheng/Desktop/y2mate.is - TIMELAPSE OF THE ENTIRE UNIVERSE-TBikbn5XJhg-1080pp-1695578801.mp4" type="video/mp4">
+    <source src="/Users/amandazheng/Documents/Adobe/Premiere Pro/23.0/y2mate.is - TIMELAPSE OF THE ENTIRE UNIVERSE-TBikbn5XJhg-1080pp-1695578801_1.mp4" type="video/mp4">
     <style>
       #video-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center; 
   position: fixed;
   top: 0;
   left: 0;
-  width: 110%;
-  height: 110%;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 
 }
@@ -138,7 +138,7 @@ color: #ffffff;
         var pauseTriggerPosition = containerTop + containerHeight - windowHeight / 2;
 
         if (scrollPosition >= playTriggerPosition && scrollPosition <= pauseTriggerPosition) {
-            // Play the video when within the playTriggerPosition and pauseTriggerPosition
+            // play the video when within the playTriggerPosition and pauseTriggerPosition
             video.play();
         } else {
             // Pause the video when outside of the playTriggerPosition and pauseTriggerPosition

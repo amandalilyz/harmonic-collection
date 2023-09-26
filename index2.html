@@ -2,17 +2,46 @@
 <html>
   <head>
    <style>
-   <style>
-     h1{color:rgb(255, 127, 167)}
-     h2{color:rgb(255, 127, 167)}
-     p{color: olivedrab;}
+@import url('https://fonts.cdnfonts.com/css/chopin-script');
+</style>
+<style>
+ h1 {
+     color: #ff7fa7;
+     animation: floatUpDown 3s ease infinite;
+ }
 
+ @keyframes floatUpDown {
+     0%, 100% {
+         transform: translateY(30);
+     }
+     50% {
+         transform: translateY(-30px);
+     }
+ }
+   <style>
+   <style>
+     h1{color:#ff7fa7}
+     h2{color:rgb(255, 127, 167)}
+     p{color: #ff7fa7;}
+
+     p:hover {
+color: #ffffff; 
+}
+
+h2:hover {
+color: #ffffff; 
+}
+
+h3:hover {
+color: #ffffff; 
+}
    </style>
    <style>
      body {
-         background-color: #fff2cd;
-         margin: 0;
-         padding: 0;
+       background-image: url(https://cdn.discordapp.com/attachments/1130679716492365855/1153573873879613541/IMG_8423_2.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
      }
        </style>
 <style>
@@ -20,23 +49,42 @@
      font-family: "helvetica", sans-serif;
      margin: 0;
      padding: 0;
+
+ }
+
+ p {
+   color: #ff7fa7;
+   margin: 40px; margin-left: 600px;
+  
+   
  }
 
  h1 {
    font-family: "Chopin Script", cursive; 
-   color: #725e5e;
+   color: #ff7fa7;
    font-size: 200px
+   
+   
+ }
+
+ h2 {
+   color: #ff7fa7;
+   margin: 40px;
    
  }
 
  h3 {
-   color: #725e5e;
+   color: #ff7fa7;
+   margin: 40px; margin-left: 600px;
    
  }
  
 </style>
 <link href="/Users/amandazheng/Downloads/chopin-script/ChopinScript.ttf" rel="stylesheet">
     <title>PARADOX</title>
+    <audio controls autoplay>
+     <source src="https://cdn.discordapp.com/attachments/1130679716492365855/1153582892723740723/Dark_Ambience_Twinkle_Atmosphere_Sound_Effect.mp3" type="audio/mpeg">
+ </audio>
   </head>
   <body>
    <textalign><center><h1>PARADOX</h1></center></textalign>
@@ -50,5 +98,31 @@
      Alternatively, I am incredibly fascinated by the idea of dichotomies, the balance of extremes. Not only does this perfectly illustrate the relationship between AI and humanity, it allows me to explore a diverse range of traits between both subjects. I am drawn to the rawness and unpredictability of human nature, planning to execute this visually through natural elements like eggs symbolizing birth, apples, the garden of eden, and viscous elements such as honey. These are the roots of our existence. On the other hand, Artificial intelligence is seemingly on the other end of the spectrum, one that has only lived a short existence so far. This makes the topic more ephemeral and hard to understand, a clear definition has yet to be set. 
      </p>
     <p>Created by Amanda Zheng</p>
+
+    <script src="/"></script>
   </body>
+  <video id="scroll-video" autoplay muted loop>
+    <source src="/Users/amandazheng/Documents/Adobe/Premiere Pro/23.0/y2mate.is - TIMELAPSE OF THE ENTIRE UNIVERSE-TBikbn5XJhg-1080pp-1695578801_1.mp4" type="video/mp4">
+    <style>
+      #video-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+
+#scroll-video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+<h1> 
+    </style>
+  </video>
 </html>
